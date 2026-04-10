@@ -1,0 +1,67 @@
+/* ---------- GLOBAL TEXT (BLACK) ---------- */
+html, body, div, span, p, label, li {
+    font-weight: 700 !important;
+    color: #000000 !important;
+}
+
+/* ---------- HEADINGS ---------- */
+h1, h2, h3, h4 {
+    font-weight: 800 !important;
+    color: #000000 !important;
+}
+
+/* ---------- FILE UPLOADER FIX ---------- */
+/* Keep outer text black */
+.stFileUploader label {
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+/* INNER DARK BOX TEXT → WHITE */
+[data-testid="stFileUploader"] section,
+[data-testid="stFileUploader"] section div,
+[data-testid="stFileUploader"] section span,
+[data-testid="stFileUploader"] small {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* Uploaded file names (outside dark box) */
+[data-testid="stFileUploaderFile"] {
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+/* ---------- CODE / OUTPUT BOX FIX ---------- */
+pre, code {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* Streamlit JSON / output block */
+[data-testid="stCodeBlock"] {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* ---------- BUTTONS ---------- */
+.stButton>button {
+    font-weight: bold !important;
+    color: #ffffff !important;
+}
+
+/* ---------- SUCCESS MESSAGE ---------- */
+.stAlert {
+    font-weight: bold !important;
+    color: #000000 !important;
+}
+
+/* ---------- REMOVE FADED TEXT ---------- */
+small {
+    opacity: 1 !important;
+}
+
+/* ---------- BACKGROUND ---------- */
+.stApp {
+    background: #ffffff !important;
+}

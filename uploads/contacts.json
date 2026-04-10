@@ -1,0 +1,7 @@
+{
+  "contacts": [
+    {"name": "Ramesh", "number": "9876543210"},
+    {"name": "Suresh", "number": "9123456780"},
+    {"name": "Unknown", "number": "9000000000"}
+  ]
+}
